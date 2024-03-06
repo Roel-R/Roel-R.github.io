@@ -1,0 +1,19 @@
+/*=========================
+    Roel Reyes, MCC, 3/6/24 
+=========================*/
+/*== Sans Sarif is more preferable to use as a font style compared to other font style ==*/
+/*== "*(asterisk)" selector will make changes to the entire page, Usee"{}" to group declarations == */
+*{
+    font-family: sans-serif;
+}
+/*== 
+Call the element that you want to make a specific change to. 
+In this case we are calling "h1" to make a change on the top titile. 
+you can set multile declarations to the same element but the lower ones will take priority
+==*/
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

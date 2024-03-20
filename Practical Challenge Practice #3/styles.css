@@ -1,0 +1,24 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    line-height: 1.5;
+}
+h1,h2,h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #ae053e;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+h1{
+    font-size: 3.5rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}

@@ -9,16 +9,17 @@ h1,h2,h3{
     color: #ae053e;
 }
 h1{
-    text-transform: uppercase;
+    font-size: 3.5rem;
     font-weight: normal;
     letter-spacing: 0.1rem;
-}
-h1{
-    font-size: 3.5rem;
+    text-transform: uppercase;
 }
 h2{
     font-size: 2rem;
 }
 h3{
     font-size: 1.5rem;
+}
+.site-intro{
+    font-size: 1.25rem;
 }

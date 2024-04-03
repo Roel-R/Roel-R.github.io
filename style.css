@@ -1,0 +1,25 @@
+/* General Form */
+*{
+
+}
+body{
+    font-family: sans-serif;
+}
+
+/* Contact Form styles */
+
+ul{
+    list-style-type: none;
+    padding-left: 0%;
+}
+label{
+    display: inline-block;
+    min-width: 90px;
+    text-align: right;
+}
+input,
+textarea{
+    border: 3px solid #092;
+    width: 300px;
+    font: 1em sans-sarif;
+}

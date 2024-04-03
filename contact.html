@@ -7,7 +7,7 @@
     Final Project, MCC, CIS133DA, Spring 2024-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="style.css"> 
     <title>Contact Roel Reyes, Learning experience designer</title><!-- can change the title -->
 </head>
 <body>
@@ -25,9 +25,27 @@
     </header>
     <main>
         <!-- Content -->
+        <form action="/my-handling-form-page" method="post"></form>
+        <ul>
+           <li>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="user_names">
+            </li>
+            <li>
+                <label for="mail">Email</label>
+                <input type="email" id="email" name="user_email">
+            </li>
+            <li>
+                <label for="msg">Message</label>
+                <textarea name="user_mesage" id="msg" cols="30" rows="10"></textarea>                
+            </li>
+            <li class="form-button">
+                <button type="submit">Send your Message</button>
+            </li>
+        </ul>
     </main>
     <footer>
-        <small>Website by <a href="mailto: roe2147994@maricopa.edu">Roel Reyes</a>&copy; Spring 2024</small>
+        <small>Website by <a href="mailto:roe2147994@maricopa.edu">Roel Reyes</a>&copy; Spring 2024</small>
     </footer>
 </body>
 </html>

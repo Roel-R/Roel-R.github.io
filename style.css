@@ -6,12 +6,30 @@ body{
     font-family: sans-serif;
 }
 
-/* Contact Form styles */
+/* Navigation */
 
-ul{
+nav ul{
     list-style-type: none;
     padding-left: 0%;
+    text-align: center;
 }
+nav li{
+    display: inline;
+    padding: 0 2rem 2rem 0;
+}
+nav a{
+    text-decoration: none;
+    color: purple;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:visited{
+    
+}
+
+/* Contact Form styles */
+
 label{
     display: inline-block;
     min-width: 90px;

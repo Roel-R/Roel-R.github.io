@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-    <!--  
+        <!--  
         Roel Reyes
     Final Project, MCC, CIS133DA, Spring 2024-->
     <meta charset="UTF-8">
@@ -25,24 +25,27 @@
     </header>
     <main>
         <!-- Content -->
-        <form action="/my-handling-form-page" method="post"></form>
-        <ul>
-           <li>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="user_names">
-            </li>
-            <li>
-                <label for="mail">Email</label>
-                <input type="email" id="email" name="user_email">
-            </li>
-            <li>
-                <label for="msg">Message</label>
-                <textarea name="user_mesage" id="msg" cols="30" rows="10"></textarea>                
-            </li>
-            <li class="form-button">
-                <button type="submit">Send your Message</button>
-            </li>
-        </ul>
+        <form action="https://api.sheetmonkey.io/form/6rXbHVXnnSibvywTuHkbG3" method="post"></form>
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="Name">
+                </li>
+                <li>
+                    <label for="mail">Email</label>
+                    <input type="email" id="email" name="Email">
+                </li>
+                <li>
+                    <label for="msg">Message</label>
+                    <textarea name="Message" id="msg" cols="30" rows="10"></textarea>                
+                </li>
+                <li class="form-button">
+                    <button type="submit">Send your Message</button>
+                    <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time"/> 
+                    
+                </li>
+                               
+            </ul>
     </main>
     <footer>
         <small>Website by <a href="mailto:roe2147994@maricopa.edu">Roel Reyes</a>&copy; Spring 2024</small>

@@ -7,33 +7,46 @@ body{
 }
 
 /* Navigation */
-
+nav{
+    background-color: tan;
+    padding: 2rem;
+}
 nav ul{
     list-style-type: none;
-    padding-left: 0%;
-    text-align: center;
+    padding-left: 0;
+    text-align: center;    
 }
 nav li{
     display: inline;
-    padding: 0 2rem 2rem 0;
+    padding: 0rem 2rem 2rem 0rem;
+    font-size: large;
+    text-transform: uppercase;
 }
 nav a{
     text-decoration: none;
-    color: purple;
+    color: blue;
 }
 nav a:hover{
     text-decoration: underline;
 }
 nav a:visited{
-    
+    color: purple;
+}
+
+header, main{
+    margin: 0 1rem;
 }
 
 /* Contact Form styles */
-
+li{
+    list-style: none;
+    text-align: left;
+}
 label{
     display: inline-block;
     min-width: 90px;
-    text-align: right;
+    text-align: left;
+    padding: 1%;
 }
 input,
 textarea{
